@@ -1,4 +1,4 @@
-# fetal-doppler-percentile
+# Introduction
 Percentile predictor for fetal doppler parameters, with gestation age (GA) and fetal heart rate (FHR) as inputs
 
 Currently supported parameters:
@@ -15,3 +15,12 @@ Currently supported parameters:
 11 TSN/ET
 
 Manuscript being prepared. Please check back later for reference to more details of the models.
+
+# Usage guide
+## [Recommended for non-programmer] On Google Colab
+1. Open *run.ipynb* on Google Colab
+
+## [For programmer] On Local Machine
+1. Install Python 3
+2. 
+3. 
