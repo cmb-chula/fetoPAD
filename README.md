@@ -21,8 +21,10 @@ The manuscript describing the data and model is being prepared. Please check bac
 
 # Usage guide
 ## [Recommended for non-programmer] On Google Colab
-1. Open *predict_fetal_doppler_percentiles.ipynb* on Google Colab
-2. Follow the instruction in the notebook
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetal-doppler-percentile**
+3. The main file **predict_fetal_doppler_percentiles.ipynb** should appear
+2. Click to open the file on Colab and follow the instructions
 
 ## [For programmer] On Local Machine
 1. Install Python
