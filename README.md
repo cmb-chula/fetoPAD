@@ -25,6 +25,7 @@ The manuscript describing the data and model is being prepared. Please check bac
 2. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetal-artery-doppler-percentile**
     * This screen can also be launched by selecting **File** -> **Open notebook** or pressing **Ctrl + O**
 3. The main file **predict_fetal_artery_doppler_percentiles.ipynb** should appear as below
+    * We have provided two user interface options: one with *sliders* and one with *text boxes*
 
 ![Colab's Github search screen](https://github.com/cmb-chula/fetal-artery-doppler-percentile/blob/main/images/colab_github_screen.png)
 
@@ -39,3 +40,4 @@ The manuscript describing the data and model is being prepared. Please check bac
   * numpy == 1.23.5 (latest version should be ok)
   * scikit-learn == 1.2.0
   * jupyter == 1.0.0 (ipywidgets should come with jupyter)
+3. The notebook .ipynb files provided can be run as is
