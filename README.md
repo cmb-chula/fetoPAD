@@ -13,9 +13,9 @@ Currently supported parameters:
 9. SNV
 10. SNV/PSV
 11. TSN
-12 TSN/ET
+12. TSN/ET
 
-***ET and PSN require both GA and FHR as inputs
+***ET and PSV require both GA and FHR as inputs
 
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
