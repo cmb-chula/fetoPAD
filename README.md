@@ -18,11 +18,12 @@ Currently supported parameters:
 14. TSN/ET
 
 ***ET and PSV require both GA and FHR as inputs
+
 **MtrPI and PI do not change over time and are modeled as normal distributions
 
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
-# Usage guide (No coding required!)
+# Usage guide (no coding required!)
 ## [Recommended] On Google Colab
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Click on **File** -> **Open notebook** or pressing **Ctrl + O**
