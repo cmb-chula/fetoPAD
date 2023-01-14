@@ -6,16 +6,19 @@ Currently supported parameters:
 2. AT/ET
 3. EDV
 4. ET***
-5. PDV
-6. PEDRF
-7. PEDRF/PSV
-8. PSV***
-9. SNV
-10. SNV/PSV
-11. TSN
-12. TSN/ET
+5. MtrPI**
+6. PDV
+7. PEDRF
+8. PEDRF/PSV
+9. PI**
+10. PSV***
+11. SNV
+12. SNV/PSV
+13. TSN
+14. TSN/ET
 
 ***ET and PSV require both GA and FHR as inputs
+**MtrPI and PI do not change over time and are modeled as normal distributions
 
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
@@ -24,7 +27,7 @@ The manuscript describing the data and model is being prepared. Please check bac
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Click on **File** -> **Open notebook** or pressing **Ctrl + O**
 3. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetal-pulm-artery-doppler-percentile**
-4. The main file **predict_fetal_artery_doppler_percentiles.ipynb** should appear as below
+4. The main file **predict_percentiles.ipynb.ipynb** should appear as below
 
 ![Colab's Github search screen](https://github.com/cmb-chula/fetal-pulm-artery-doppler-percentile/blob/main/images/colab_github_screen.png)
 
@@ -35,8 +38,7 @@ The manuscript describing the data and model is being prepared. Please check bac
 ## [For Advanced Users] On Local Machine
 1. Install Python
 2. Install the following Python package
-  * pandas == 1.5.2 (latest version should be ok)
-  * numpy == 1.23.5 (latest version should be ok)
+  * pandas == 1.5.2
+  * numpy == 1.23.5
   * scikit-learn == 1.2.0
-  * jupyter == 1.0.0 (ipywidgets should come with jupyter)
-3. The notebook .ipynb files provided can be run as is
+  * jupyter == 1.0.0
