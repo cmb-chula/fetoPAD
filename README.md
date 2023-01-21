@@ -1,5 +1,9 @@
 # Introduction
-Percentile predictor for fetal doppler parameters, with gestation age (GA) and fetal heart rate (FHR) as inputs
+This is the repository for percentile predictors for fetal pulmonary artery doppler parameters, **fetoPAD**
+
+Each percentile prediction is made based on input gestation age (GA), fetal heart rate (FHR), and the measurement for the parameter of interest.
+
+Warning will be raised if the input values are too low or too high (beyond the 2 SD range) of observations in our database.
 
 Currently supported parameters:
 1. AT
@@ -27,14 +31,14 @@ The manuscript describing the data and model is being prepared. Please check bac
 ## [Recommended] On Google Colab
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Click on **File** -> **Open notebook** or pressing **Ctrl + O**
-3. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetal-pulm-artery-doppler-percentile**
+3. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetoPAD**
 4. The main file **predict_percentiles.ipynb.ipynb** should appear as below
 
-![Colab's Github search screen](https://github.com/cmb-chula/fetal-pulm-artery-doppler-percentile/blob/main/images/colab_github_screen.png)
+![Colab's Github search screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/colab_github_screen.png)
 
 5. Click to open the file and follow the instructions as shown below
 
-![Main notebook screen](https://github.com/cmb-chula/fetal-pulm-artery-doppler-percentile/blob/main/images/main_notebook_screen.png)
+![Main notebook screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/main_notebook_screen.png)
 
 ## [For Advanced Users] On Local Machine
 1. Install Python
