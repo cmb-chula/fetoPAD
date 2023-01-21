@@ -36,7 +36,7 @@ The manuscript describing the data and model is being prepared. Please check bac
 
 ![Colab's Github search screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/colab_github_screen.png)
 
-5. Click to open the file and follow the instructions as shown below
+5. Click to open the file and follow the instructions
 
 ![Main notebook screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/main_notebook_screen.png)
 
