@@ -29,22 +29,4 @@ Currently supported parameters:
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
 # Usage guide (no coding required!)
-## [Recommended] On Google Colab
-1. Go to [Google Colab](https://colab.research.google.com/)
-2. Click on **File** -> **Open notebook** or pressing **Ctrl + O**
-3. Click on **GitHub** tab and search for **https://github.com/cmb-chula/fetoPAD**
-4. The main file **predict_percentiles.ipynb.ipynb** should appear as below
-
-![Colab's Github search screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/colab_github_screen.png)
-
-5. Click to open the file and follow the instructions
-
-![Main notebook screen](https://github.com/cmb-chula/fetoPAD/blob/main/images/main_notebook_screen.png)
-
-## [For Advanced Users] On Local Machine
-1. Install Python
-2. Install the following Python package
-  * pandas == 1.5.2
-  * numpy == 1.23.5
-  * scikit-learn == 1.2.0
-  * jupyter == 1.0.0
+Click [here](https://colab.research.google.com/github/cmb-chula/fetoPAD/blob/main/predict_percentiles.ipynb) to open the user interface in Google Colaboratory
