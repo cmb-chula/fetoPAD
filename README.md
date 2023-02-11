@@ -3,8 +3,6 @@ This is the repository for percentile predictors for fetal pulmonary artery dopp
 
 Each percentile prediction is made based on input gestation age (GA), fetal heart rate (FHR), and the measurement for the parameter of interest.
 
-Warning will be raised if the input values are too low or too high (beyond the 2 SD range) of observations in our database.
-
 Currently supported parameters:
 1. AT
 2. AT/ET
@@ -29,4 +27,13 @@ Currently supported parameters:
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
 # Usage guide (no coding required!)
-Click [here](https://colab.research.google.com/github/cmb-chula/fetoPAD/blob/main/predict_percentiles.ipynb) to open the user interface in Google Colaboratory
+1. Click [here](https://colab.research.google.com/github/cmb-chula/fetoPAD/blob/main/predict_percentiles.ipynb) to open the main script in Google Colaboratory
+2. Hit the play button to the left to run each block of the script
+
+![Main Script on Google Colab](https://github.com/cmb-chula/fetoPAD/blob/main/images/main_notebook_screen.png)
+
+3. The user interface will then show up at the bottom
+
+![UI Page](https://github.com/cmb-chula/fetoPAD/blob/main/images/colab_ui_screen_witherr.png)
+
+## Warning will be raised if the input values are too low or too high (beyond the 2 SD range) of observations in our database.
