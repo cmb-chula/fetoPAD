@@ -19,11 +19,12 @@ Currently supported parameters:
 11. SNV
 12. SNV/PSV
 13. TSN
-14. TSN/ET
+14. TSN/AT**
+15. TSN/ET
 
 ***ET and PSV require both GA and FHR as inputs
 
-**MtrPI and PI do not change over time and are modeled as normal distributions
+**MtrPI, PI, and TSN/AT do not change over time and are modeled using normal distributions
 
 The manuscript describing the data and model is being prepared. Please check back later for more details of this work.
 
