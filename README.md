@@ -36,4 +36,4 @@ The manuscript describing the data and model is being prepared. Please check bac
 
 ![UI Page](https://github.com/cmb-chula/fetoPAD/blob/main/images/colab_ui_screen_witherr.png)
 
-## Warning will be raised if the input values are too low or too high (beyond the 2 SD range) of observations in our database.
+**Warning will be raised if the input values are too low or too high (beyond the 2 SD range) of observations in our database**
